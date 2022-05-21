@@ -22,3 +22,156 @@ Django version 2.2.16, using settings 'infra_project.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 Watching for file changes with StatReloader
+[21/May/2022 16:11:07] "GET / HTTP/1.1" 200 33
+[21/May/2022 16:11:08] "GET / HTTP/1.1" 200 33
+Not Found: /second_page/
+[21/May/2022 16:13:19] "GET /second_page/ HTTP/1.1" 404 2317
+Not Found: /second_page
+[21/May/2022 16:13:23] "GET /second_page HTTP/1.1" 404 2314
+[21/May/2022 16:13:36] "GET / HTTP/1.1" 200 33
+[21/May/2022 16:16:01] "GET /second/ HTTP/1.1" 200 39
+C:\Dev\infra_actions\infra_project\infra_app\urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+May 21, 2022 - 16:01:11
+Django version 2.2.16, using settings 'infra_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Watching for file changes with StatReloader
+C:\Dev\infra_actions\infra_project\infra_app\urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+May 21, 2022 - 16:16:37
+Django version 2.2.16, using settings 'infra_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/' [name='index'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 1 issue (0 silenced).
+C:\Dev\infra_actions\infra_project\infra_project\settings.py changed, reloading.
+Performing system checks...
+
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+May 21, 2022 - 16:17:41
+Django version 2.2.16, using settings 'infra_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/' [name='index'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 1 issue (0 silenced).
+C:\Dev\infra_actions\infra_project\infra_project\settings.py changed, reloading.
+Performing system checks...
+
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+May 21, 2022 - 16:20:03
+Django version 2.2.16, using settings 'infra_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/' [name='index'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 1 issue (0 silenced).
+C:\Dev\infra_actions\infra_project\infra_project\settings.py changed, reloading.
+Performing system checks...
+
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+May 21, 2022 - 16:20:47
+Django version 2.2.16, using settings 'infra_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/' [name='index'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 1 issue (0 silenced).
+Not Found: /
+[21/May/2022 16:24:08] "GET / HTTP/1.1" 404 2264
+Not Found: /favicon.ico
+[21/May/2022 16:24:36] "GET /favicon.ico HTTP/1.1" 404 2315
+C:\Dev\infra_actions\infra_project\infra_project\settings.py changed, reloading.
+Performing system checks...
+
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+May 21, 2022 - 16:24:07
+Django version 2.2.16, using settings 'infra_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/' [name='index'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 1 issue (0 silenced).
+C:\Dev\infra_actions\infra_project\infra_project\settings.py changed, reloading.
+Performing system checks...
+
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+May 21, 2022 - 16:24:37
+Django version 2.2.16, using settings 'infra_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/' [name='index'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 1 issue (0 silenced).
+Not Found: /
+[21/May/2022 16:25:01] "GET / HTTP/1.1" 404 2264
+C:\Dev\infra_actions\infra_project\infra_app\urls.py changed, reloading.
+Performing system checks...
+
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+May 21, 2022 - 16:24:59
+Django version 2.2.16, using settings 'infra_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Watching for file changes with StatReloader
+[21/May/2022 16:25:29] "GET / HTTP/1.1" 200 33
+C:\Dev\infra_actions\infra_project\infra_app\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+May 21, 2022 - 16:25:28
+Django version 2.2.16, using settings 'infra_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Watching for file changes with StatReloader
