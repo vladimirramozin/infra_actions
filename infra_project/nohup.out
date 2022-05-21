@@ -10,3 +10,15 @@ Watching for file changes with StatReloader
 [21/May/2022 15:50:35] "GET / HTTP/1.1" 200 33
 Watching for file changes with StatReloader
 [21/May/2022 15:51:09] "GET / HTTP/1.1" 200 33
+C:\Dev\infra_actions\infra_project\manage.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+May 21, 2022 - 15:51:06
+Django version 2.2.16, using settings 'infra_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Watching for file changes with StatReloader
