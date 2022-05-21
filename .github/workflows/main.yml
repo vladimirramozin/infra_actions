@@ -24,12 +24,11 @@ jobs:
 
     - name: Test with flake8 and django tests
       run: |
-        cd infra_project/
-        nohup python manage.py runserver &
         # запуск проверки проекта по flake8
         python -m flake8
         # перейти в папку, содержащую manage.py — 
         #<корневая_папка_infra_actions>/<папка_проекта>/manage.py
         cd infra_project/
         # запустить написанные разработчиком тесты
+        nohup python manage.py runserver &
         python manage.py test
